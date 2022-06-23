@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #1e1e1e;
+}
+.chua-dung{
+    height: 100%;
+    width: 100%;   
+}
+.noidung{
+    width: 78vw;
+    min-height: 100vh;
+    padding-left: 20.5vw;
+}
+.tieude {
+    background-color: white;
+    width: 77.5vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 25px 0px;
+    text-align: center;
+    border: 1px solid #C80000;
+    
+}
+.logo{
+	display: flex;
+	justify-content: left;
+	list-style: none;
+	padding: 5px 0 0 5px;
+    border-bottom: 0.1px solid #E0E0E0;
+	background-color: #F0F0F0;
+	margin-bottom: 20px;
+	  
+}
+.logo li a{
+	text-decoration: none;
+	color: #000;
+	padding-right: 5px;
+}
+.nav-s{
+    padding: 25px;
+    width: 40vw;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    list-style: none;  
+}
+.nd{
+    background-color: white;
+    width: 77.5vw;
+    min-height: 100vh;
+    text-align: center;
+    
+}
+.noiDung{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-weight: 8700;
+    font-size: 35px;
+    color: #C80000;
+}

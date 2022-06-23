@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+body {
+	font-family: 'Poppins', sans-serif;
+    background-color: #efefef;
+}
+#tieude {
+    background-color: #f6f7fc;
+}
+.thuonghieu {
+  padding-left:10%;
+}
+.thuonghieu> img{
+  width: 245px;
+  height: 54px;
+}
+.nen{
+   height: 100vh; 
+   width: 100%;
+   position: fixed; 
+   background-color:  #efefef;
+}
+.form{
+  font-size: 18px;
+  width: 30vw;
+  height: 83vh;
+  background: #fff;
+  padding: 3px 35px 0 35px;
+  margin: 30px 0 0 33vw ;
+  position: fixed;
+   }
+.tieude{
+  font-size: 28px;
+  text-align: center;
+}
+.dangnhapsai{
+  width: 30vw;
+  height: 4vh;
+  text-align: center;
+}
+.dieukhien-form {
+    border: none;
+    border-radius: 4px;
+    height: 54px;
+    background: #efefef;
+    width: 98%;
+    margin-left: 2px;
+    padding-left: 10px;
+    font-size: 17px;
+}
+.dieukhien-form:active, .dieukhien-form:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; 
+}
+.dangnhap, .dangky{
+    border: none;
+    border-radius: 4px;
+    height: 45px;
+    width: 60%;
+    margin-left: 20%;
+    cursor: pointer;
+}
+.dangky p{
+	font-size: 17px;
+}
+.dangnhap{
+  background-color: rgb(185, 64, 64);
+  font-size: 18px;
+  color: white;
+}

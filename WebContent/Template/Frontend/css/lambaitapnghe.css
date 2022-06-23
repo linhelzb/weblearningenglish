@@ -1,0 +1,11 @@
+.chua-dung{
+	width: 80%;
+    padding: 20px 10%;
+    min-height: 500px;
+}
+.btn{
+	border: 0.5px solid red;
+	border-radius: 3px;
+	background-color: #CCFFFF;
+	color: gray;
+}

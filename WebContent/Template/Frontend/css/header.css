@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#hang-tieude {
+    background-color: #f1f1f1;
+    width: 80%;
+    height: 65px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-s{
+    padding: 19px;
+    width: 40vw;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    list-style: none;  
+    font-size: 17px;
+}

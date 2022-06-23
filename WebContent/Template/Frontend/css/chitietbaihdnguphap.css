@@ -1,0 +1,46 @@
+/*HI*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.binhluan{
+    border: 1px solid rgba(139, 138, 138, 0.363);
+    height: 600px;
+    padding: 30px;
+    width: 650px;
+    margin: 20px;
+}
+.tieude-binhluan{
+    height: 20px;
+    padding: 10px 0 30px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(139, 138, 138, 0.171);
+}
+.vanban{
+    border: 1px solid rgba(139, 138, 138, 0.411);
+    width: 520px;
+    height: 50px; 
+}
+.dauvao{
+    display: flex;
+    padding-bottom: 20px;
+}
+.button {
+    border: 1px solid #CFCFCF;
+    border-radius: 3px;
+    color: white;
+    background-color: #1874CD;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    height: 25px;
+    width: 55px;
+    margin: 12px;
+    font-weight: 600;
+  }
+.dslk p{
+	font-weight: 600;
+}

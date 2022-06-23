@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #1e1e1e;
+}
+.chua-dung{
+    height: 100%;
+    width: 100%;   
+}
+
+.noidung{
+   /* background-color: #9a5656; */ 
+    width: 78vw;
+    min-height: 100vh;
+    padding-left: 20.5vw;
+}
+.tieude {
+    background-color: white;
+    width: 77.5vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 25px 0px;
+    text-align: center;
+    border: 1px solid #C80000;
+    
+}
+.logo{
+	display: flex;
+	justify-content: left;
+	list-style: none;
+	  padding: 5px 0 0 5px;
+      border-bottom: 0.1px solid #E0E0E0;
+	background-color: #F0F0F0;
+	margin-bottom: 20px;
+	  
+}
+.logo li a{
+	text-decoration: none;
+	color: #000;
+	padding-right: 5px;
+}
+.bang{
+    margin-left: 30px;
+}
+table{
+  width: 74vw;
+  box-shadow: 0px 0px 10px #AFEEEE	; 
+  
+}
+table,  th, td {
+  border: 1px solid #D3D3D3;
+  border-collapse: collapse;
+  padding: 4px;
+  
+}
+
+tr>th{
+  height: 40px;
+  max-width: 500px;
+  background-color: #E8E8E8;
+}
+tr>td{
+  height: 50px;
+  max-height: 100px;
+  max-width: 500px;
+  resize: inline;
+  overflow: auto;
+  background-color: #F0F0F0;
+}
+.nav-s{
+  padding: 25px;
+  width: 40vw;
+  display: flex;
+  justify-content: right;
+  text-align: center;
+  list-style: none;  
+}
+.nd{
+    background-color: white;
+    width: 77.5vw;
+    min-height: 900px;
+    text-align: center;
+    
+}
+.noiDung{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    font-weight: 8700;
+    font-size: 35px;
+    color: #C80000;
+}
+.truoc, .sau{
+    border: 1px solid #CFCFCF;
+    text-align: center;
+    height:25px;
+    width: 40px;
+    cursor: pointer;
+}
+.pt{
+	width: 620px;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    list-style: none; 
+    padding-top: 10px; 
+}
+.pt i{
+	color: red;
+}
+.chua-dung-tb{
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.chua-dung-tb >label{
+  line-height: 50px;
+  font-weight: 600;
+  font-size: 18px;
+}
+input {
+  width: 75%;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+#btn{
+    cursor: pointer;
+    background-color: #C80000;
+    width: 60px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #F0F0F0;
+    margin-top: 10px;
+}
