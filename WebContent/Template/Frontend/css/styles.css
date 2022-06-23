@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+li, a{
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+ a:hover{
+    color: rgb(179, 15, 15);
+}
+.dslk{
+	width: 250px;
+}
+.dslk ul li i{
+	color:red;
+	padding-right: 5px;
+}
+/*HI*/

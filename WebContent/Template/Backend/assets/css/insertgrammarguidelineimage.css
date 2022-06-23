@@ -1,0 +1,30 @@
+/*hi*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: white	;
+}
+.chonfile{
+    width: 310px;
+    height: 250px;
+    background-color: #F8F8F8;
+    padding: 30px;
+    border: 3px solid #C8C8C8;
+}
+.chonfile p{
+    border-bottom: 0.7px solid #87CEFA;
+    padding: 7px 0;
+    color: #4169E1;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.khoangtrang{
+    height: 20px;
+}
